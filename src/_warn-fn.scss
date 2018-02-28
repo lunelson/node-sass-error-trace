@@ -1,0 +1,4 @@
+@function warn($str) {
+  @warn '#{$str}';
+  @return null;
+}

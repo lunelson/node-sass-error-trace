@@ -1,0 +1,7 @@
+.test {
+  content: 'test';
+}
+
+@import 'partial';
+
+@include warn-error-test;

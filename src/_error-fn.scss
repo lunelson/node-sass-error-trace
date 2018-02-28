@@ -1,0 +1,4 @@
+@function error($str) {
+  @error '#{$str}';
+  @return null;
+}

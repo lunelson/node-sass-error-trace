@@ -1,0 +1,15 @@
+.partial {
+  content: 'partial';
+}
+
+@import 'warn-fn';
+@import 'error-fn';
+
+@mixin warn-error-test {
+  .warn {
+    content: warn('this is a warning');
+  }
+  .error {
+    content: error('this is an error');
+  }
+}
